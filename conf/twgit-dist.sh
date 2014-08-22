@@ -7,6 +7,7 @@
 #
 # Copyright (c) 2011 Twenga SA
 # Copyright (c) 2012-2013 Geoffroy Aubry <geoffroy.aubry@free.fr>
+# Copyright (c) 2014 Karl Marques <marques.karl@live.fr>
 #
 # Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance
 # with the License. You may obtain a copy of the License at
@@ -19,6 +20,7 @@
 #
 # @copyright 2011 Twenga SA
 # @copyright 2012-2013 Geoffroy Aubry <geoffroy.aubry@free.fr>
+# @copyright 2014 Karl Marques <marques.karl@live.fr>
 # @license http://www.apache.org/licenses/LICENSE-2.0
 #
 
@@ -67,12 +69,14 @@ TWGIT_EMAIL_DOMAIN_NAME=''	# e.g. twenga.com
 TWGIT_MAX_RETRIEVE_TAGS_NOT_MERGED=3
 TWGIT_MAX_TAG_LIST_TO_SHOW=5
 
-TWGIT_FEATURE_SUBJECT_CONNECTOR=''			    # in {'', 'github', 'redmine', 'jira'}
+TWGIT_FEATURE_SUBJECT_CONNECTOR=''			    # in {'', 'github', 'redmine', 'jira', 'gitlab'}
 TWGIT_FEATURE_SUBJECT_CONNECTOR_PATH="$TWGIT_INC_DIR/connectors/feature_subject_%s.sh"	# où %s est un $TWGIT_FEATURE_SUBJECT_CONNECTOR
 TWGIT_FEATURE_SUBJECT_REDMINE_API_KEY=''	    # API key is a 40-byte hexadecimal string.
 TWGIT_FEATURE_SUBJECT_REDMINE_DOMAIN=''		    # e.g. 'www.redmine.org', with optionally scheme: 'http://', 'https://' (default).
 TWGIT_FEATURE_SUBJECT_GITHUB_USER=''		    # e.g. 'Twenga'
 TWGIT_FEATURE_SUBJECT_GITHUB_REPOSITORY=''	    # e.g. 'twgit'
+TWGIT_FEATURE_SUBJECT_GITLAB_API_KEY=''             # API key
+TWGIT_FEATURE_SUBJECT_GITLAB_DOMAIN=''              # e.g. 'www.gitlab.com' , with optionally scheme: 'http://', 'https://' (default).
 TWGIT_FEATURE_SUBJECT_JIRA_DOMAIN=''            # e.g. 'www.abc.xyz'
 TWGIT_FEATURE_SUBJECT_JIRA_CREDENTIAL_BASE64='' # base64 (login:password)
 
